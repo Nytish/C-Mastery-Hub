@@ -1,2 +1,2 @@
 # C-Mastery-Hub
-All the content required to upgrade C++ latest standards with appropriate set of compile proof code examples
+A hub for mastering modern C++ development, providing a structured approach to upgrading C++ skills with practical, compile-proof code examples.
