@@ -1,0 +1,17 @@
+cpp-upskill/
+├── CMakeLists.txt               # Top-level CMake configuration
+├── src/                         # Source code for main executable
+│   └── main.cpp
+├── include/                     # Public header files
+│   └── (future headers)
+├── modules/                     # Individual concept modules (e.g. SOLID)
+│   ├── solid/
+│   │   ├── CMakeLists.txt       # Module-specific build logic
+│   │   ├── include/             # Public headers for SOLID
+│   │   ├── src/                 # SOLID source files
+│   │   └── tests/               # SOLID-specific tests
+│   └── (other modules)
+├── tests/                       # Root test directory (optional)
+│   └── test_main.cpp
+├── vendor/                      # Third-party dependencies (optional)
+└── build/                       # Build artifacts (not versioned)
